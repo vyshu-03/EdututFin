@@ -427,7 +427,7 @@
 
         /* footer */
 
-        footer{
+       footer{
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -504,7 +504,9 @@ form input{
 }
 
 @media (max-width: 700px){
-    
+    footer{
+        bottom:unset
+    }
     .col
 {
     flex-basis :100%;
@@ -514,74 +516,6 @@ form input{
     flex-basis: 100%;
 }
 }
-
-
-      @media only screen and (max-width:1000px)
-{
-    .row-1{
-        flex-direction: column;
-        top: -50px;
-    }
-    .col2{
-        position: relative;
-        /* flex-basis: 100%; */
-        margin-bottom: 0;
-        left: 0px;
-        top: 120px;
-        width: 90%;
-    }
-    
-    .col1{
-        flex-basis: 100%;
-        top: 100px;
-        left: 0px;
-
-    }
-    .col1 h2{
-        font-size: 35px;
-    }
-    .col1 h3{
-        font-size: 20px;
-    }
-    .col1 h4{
-        font-size: 15px;
-    }
-
-    .works_container{
-        margin-top: 100px;
-    }
-}
-@media(max-width:612px) {
-            .col2{
-                left: 0px;
-                top: 140px;
-                width: 100%;
-            }
-            .footer-col {
-                width: 100%;
-            }
-
-        }
-    @media(max-width:520px){
-        .col1{
-            left: -50px;
-        }
-        .col2{
-            left: 0px;
-        }
-        .works_flex-box{
-            width: 10%;
-        }
-        .works_flex-box h4{
-            font-size: 15px;
-        }
-        .works_flex-box-in{
-            width: 10%;
-        }
-        .works_flex-box-in h4{
-            font-size: 15px;
-        }
-    }
         /* Explore */
         .container {
   display: flex;
@@ -1258,9 +1192,7 @@ button:hover {
 
     </div>
 
-    <div class="footbar" >
-        
-    <footer style="position: relative;">
+    <footer>
         <div class="row">
             <div class="col">
                 <img src="edum.png" alt="logo" width = "132" height="50" >
@@ -1330,7 +1262,7 @@ button:hover {
            
         </div>
     </footer>
-    </div>
+
     </div>
     <script>
         const revealfun = () => {
