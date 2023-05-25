@@ -427,12 +427,8 @@
 
         /* footer */
         
-.foot{
-     background: #ccc;
-        }
-  .foot footer{
+footer{
     width: 100%;
-      height:auto;
     position: absolute;
     bottom: 0;
     background: linear-gradient(to right, #00093c, #2d0b00);
@@ -442,7 +438,7 @@
     line-height: 20px;
 }
 
- .row{
+.row{
     width: 85%;
     margin: auto;
     display: flex;
@@ -473,7 +469,7 @@
     border-bottom: 1px solid silver;
     margin: 15px 0
 }
- form{
+form{
     padding-bottom: 15px;
     display: flex;
     align-items: center;
@@ -481,14 +477,14 @@
     border-bottom: 1px solid silver;
     margin-bottom: 50px;
 }
- form input{
+form input{
     width: 100%;
     background: transparent;
     color: #f7f3f3;
     border:0;
     outline: none;
 }
- .social_media .bi{
+.social_media .bi{
     width: 40px;
     height: 40px;
     text-align: center;
@@ -508,9 +504,7 @@
 }
 
 @media (max-width: 700px){
-    footer{
-        bottom:unset
-    }
+    
     .col
 {
     flex-basis :100%;
@@ -1195,8 +1189,9 @@ button:hover {
 
 
     </div>
-<div class="foot">
-    <footer>
+<div class="footbar" >
+        
+    <footer style="position: relative;">
         <div class="row">
             <div class="col">
                 <img src="edum.png" alt="logo" width = "132" height="50" >
