@@ -673,9 +673,9 @@ form input{
   color: #fff;
 }
 
-nav.navbar{
+/* nav.navbar{
     position: relative;
-}
+} */
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -690,7 +690,8 @@ nav.navbar{
   justify-content: space-around;
 }
 .logo {
-    left: 200px;
+    position: relative;
+    top: 28px;
   order: 1;
   font-size: 1.8rem;
   padding-top: 8px;
@@ -742,6 +743,12 @@ button:hover {
 .navbar a:hover {
   color: #721227;
 }
+
+@media (max-width:893px){
+    .logo{
+        display: none;
+    }
+  }
 
 @media (max-width: 799px) {
   .navbar-container input[type="checkbox"],
@@ -807,6 +814,7 @@ button:hover {
   }
 
   .navbar .menu-items {
+    
     padding-top: 100px;
     background: #24252a;
     background: -webkit-linear-gradient(#00093c, #2d0b00); /* For Safari 5.1 to 6.0 */
@@ -817,7 +825,9 @@ button:hover {
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
-    margin-left: -40px;
+    /* margin-left: -400px; */
+    position: relative;
+    left: -430px;
     padding-left: 40px;
     transition: transform 0.5s ease-in-out;
     overflow: scroll;
@@ -863,6 +873,100 @@ button:hover {
      transform: rotate(-45deg);
   }
 
+  @media (max-width: 782px){
+    .navbar .menu-items{
+        left: -400px;
+    }
+  }
+
+  @media (max-width: 748px){
+    .navbar .menu-items{
+        left: -390px;
+    }
+  }
+
+  @media (max-width: 737px){
+    .navbar .menu-items{
+        left: -360px;
+    }
+}
+    @media (max-width: 705px){
+    .navbar .menu-items{
+        left: -340px;
+    }
+}
+    @media (max-width: 687px){
+    .navbar .menu-items{
+        left: -320px;
+    }
+  }
+
+  @media (max-width: 663px){
+    .navbar .menu-items{
+        left: -300px;
+    }
+  }
+
+  @media (max-width: 644px){
+    .navbar .menu-items{
+        left: -290px;
+    }
+  }
+
+  @media (max-width: 631px){
+    .navbar .menu-items{
+        left: -270px;
+    }
+  }
+  @media (max-width: 610px){
+    .navbar .menu-items{
+        left: -250px;
+    }
+  }
+
+  @media (max-width: 592px){
+    .navbar .menu-items{
+        left: -240px;
+    }
+  }
+  @media (max-width: 577px){
+    .navbar .menu-items{
+        left: -220px;
+    }
+  }
+  @media (max-width: 557px){
+    .navbar .menu-items{
+        left: -200px;
+    }
+  }
+  @media (max-width: 537px){
+    .navbar .menu-items{
+        left: -180px;
+    }
+  }
+  @media (max-width: 514px){
+    .navbar .menu-items{
+        left: -160px;
+    }
+  }
+
+  @media (max-width: 495px){
+    .navbar .menu-items{
+        left: -140px;
+    }
+  }
+  @media (max-width: 477px){
+    .navbar .menu-items{
+        left: -120px;
+    }
+  }
+  @media (max-width: 453px){
+    .navbar .menu-items{
+        left: -100px;
+    }
+  }
+
+  
  @media (max-width: 400px) {
     .navbar-container input[type="checkbox"]:checked ~ .logo {
       display: none;
@@ -872,9 +976,27 @@ button:hover {
     }
 
 }
-.b{
-    margin-top:100px;
-        }
+@media (max-width: 402px){
+    .navbar .menu-items{
+        left: -90px;
+    }
+  }
+  @media (max-width: 325px){
+    .navbar .menu-items{
+        left: -75px;
+    }
+  }
+
+
+.bar{
+    position: absolute;
+    top: 0px;
+}
+
+nav.navbar{
+    top: 0;
+    height: 100px;
+}
 
     </style>
     <title>Mentoring</title>
