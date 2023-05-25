@@ -442,7 +442,7 @@
     line-height: 20px;
 }
 
-.row{
+.foot .row{
     width: 85%;
     margin: auto;
     display: flex;
@@ -450,30 +450,30 @@
     align-items: flex-start;
     justify-content: space-between;
 }
-.col
+.foot.col
 {
     flex-basis :25%;
     padding: 10px;
 }
-.col :nth-child(2) , .col :nth-child(3){
+.foot.col :nth-child(2) , .col :nth-child(3){
     flex-basis: 15%;
 }
-.logo{
+.foot.logo{
     width: 80px;
     margin-bottom: 30px;
     
 }
-.col h3{
+.foot.col h3{
     width: fit-content;
     margin-bottom: 40px;
     position: relative;
 }
-.email-id{
+.foot.email-id{
     width: fit-content;
     border-bottom: 1px solid silver;
     margin: 15px 0
 }
-form{
+.foot form{
     padding-bottom: 15px;
     display: flex;
     align-items: center;
@@ -481,14 +481,14 @@ form{
     border-bottom: 1px solid silver;
     margin-bottom: 50px;
 }
-form input{
+.foot form input{
     width: 100%;
     background: transparent;
     color: #f7f3f3;
     border:0;
     outline: none;
 }
-.social_media .bi{
+.foot .social_media .bi{
     width: 40px;
     height: 40px;
     text-align: center;
@@ -497,7 +497,7 @@ form input{
     margin-right: 15px;
 
 }
-.apps_icons .bi{
+.foot.apps_icons .bi{
     width: 40px;
     height: 40px;
     text-align: center;
@@ -508,15 +508,15 @@ form input{
 }
 
 @media (max-width: 700px){
-    footer{
+   .foot footer{
         bottom:unset
     }
-    .col
+   .foot .col
 {
     flex-basis :100%;
     
 }
-.col :nth-child(2) , .col :nth-child(3){
+.foot.col :nth-child(2) , .foot.col :nth-child(3){
     flex-basis: 100%;
 }
 }
