@@ -66,22 +66,9 @@
             max-width: 550px;
         }
 
-        .logo {
-            position: absolute;
-            top: 21%;
-            left: 49%;
-            transform: translate(-50%, -50%);
-            color: #000000;
-            font-size: 2rem;
-            font-weight: bold;
-            text-align: center;
-            width: 25%;
-            max-width: 800px;
+        
 
-            opacity: 1;
-        }
-
-    .row {
+    .row1 {
     position: absolute;
     top: 73%;
     left: 19%;
@@ -427,7 +414,7 @@
 
         /* footer */
 
-            *{
+        *{
     margin: 0;
     padding: 0%;
     font-family: 'poppins',sans-serif;
@@ -710,6 +697,17 @@ form input{
   justify-content: space-around;
 }
 .logo {
+            left: 49%;
+            transform: translate(-50%, -50%);
+            color: #000000;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            width: 25%;
+            max-width: 800px;
+
+            opacity: 1;
+        
     position: relative;
     top: 28px;
   order: 1;
@@ -1001,11 +999,6 @@ button:hover {
         left: -90px;
     }
   }
-  @media (max-width: 325px){
-    .navbar .menu-items{
-        left: -75px;
-    }
-  }
 
 
 .bar{
@@ -1035,7 +1028,7 @@ nav.navbar{
             
             
             
-            <div class="row">
+            <div class="row1">
                 <div class="col-sm-12 text-center">
                     <a href="studentfinal (3) (3).html"><button class="btn demo-btn btn-md mt-3" style="border-radius:15px;position:relative;right:8px;">Book a Demo Class</button></a>
                     <a href="become a tutor (2).html"><button class="btn instructor-btn btn-md mt-3" style="border-radius:15px">Become an Instructor</button></a>
@@ -1145,6 +1138,8 @@ nav.navbar{
             </div>
         </div>
     </div>
+
+    <!-- teachers -->
     <div class="teachers">
         <center>
             <h1 style="color:black">Our Mentors</h1>
@@ -1206,61 +1201,72 @@ nav.navbar{
 
     </div>
    
-    <!-- stats -->
-    <div class="works_container">
-        <div class="works_row">
-            <div class="works_flex-container d-flex flex-wrap justify-content-center">
-                <div class="works_flex-box ">
+   <!-- stats -->
+   <div class="testimonials" >
+    <center>
+        <h2 style="color:#13272f;">Stats</h1>
+    </center>
+    <div class="testimonial_border"></div>
+    <div class="testimonials_row d-flex justify-content-center flex-wrap" >
+
+        <div class="testimonial d-flex flex-column" style="align-items: center; background: white;border: #13272f solid; border-radius: 1.6rem;">
+            <div class="testimonial_up d-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" style="width: 100px; height:100px " fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                  </svg>
+
+
+                <div class="testimonial_right d-flex flex-column justify-content-start">
                     
-                    
-                    <br>
-                    <br>
-                    <span
-                            class="dot">
-                            <i class="bi bi-person"></i>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40S" fill="white" class="bi bi-person" viewBox="0 0 16 16">
-                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
-                              </svg>
-                        </span>
-                    
-                    <br><br>
-                    <h4>10,000+ Students</h4>
-                </div>
-                <div class="works_flex-box">
-                   
-                    
-                    <br>
-                    <br>
-                    <span class="dot">
-                        <i class="bi bi-ui-checks"></i>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40S" fill="white" class="bi bi-ui-checks" viewBox="0 0 16 16">
-                            <path d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2H2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708l-2 2zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708l-2 2zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
-                          </svg>
-                        </span>
-                    
-                    <br>
-                    <br>
-                    <h4>100+ Reviews</h4>
-                </div>
-                <div class="works_flex-box">
-                   
-                    
-                    <br>
-                    <br>
-                     <span class="dot">
-                        <i class="bi bi-person"></i>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40S" fill="white" class="bi bi-person" viewBox="0 0 16 16">
-                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
-                          </svg>
-                        </span>
-                    
-                    <br>
-                    <br>
-                    <h4>50+ Trusted Instructors</h4>
                 </div>
             </div>
+
+            <div class="testimonial_down">
+                <h3>10,000+ Students</h3>
+            </div>
+
+        </div>
+
+
+        <div class="testimonial d-flex flex-column" style="align-items: center;background: white;border: #13272f solid; border-radius: 1.6rem;">
+            <div class="testimonial_up d-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" style="width: 100px; height:100px " fill="currentColor" class="bi bi-ui-checks" viewBox="0 0 16 16">
+                    <path d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2H2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708l-2 2zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708l-2 2zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+
+
+                <div class="testimonial_right d-flex flex-column justify-content-start">
+                    
+                </div>
+            </div>
+
+            <div class="testimonial_down">
+                <h3>100+ Reviews</h3>
+            </div>
+
+        </div>
+
+        <div class="testimonial d-flex flex-column" style="align-items: center;background: white;border: #13272f solid; border-radius: 1.6rem;">
+            <div class="testimonial_up d-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" style="width: 100px; height:100px " fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                  </svg>
+
+
+                <div class="testimonial_right d-flex flex-column justify-content-start">
+                    
+                </div>
+            </div>
+
+            <div class="testimonial_down">
+                <h3>50+ Trusted Instructors</h3>
+            </div>
+
         </div>
     </div>
+</div>
+
+<!-- Review -->
     <div class="testimonials">
         <center>
             <h2 style="color:#13272f;">Reviews</h1>
@@ -1356,8 +1362,8 @@ nav.navbar{
 
 
     </div>
-
-    <footer>
+<!-- footer -->
+<footer>
     <div class="row">
         <div class="col">
             <!--<img src="EDumoonwhite logo.jpg" alt="logo" width = "150" height="90" > -->
@@ -1441,6 +1447,7 @@ nav.navbar{
        
     </div>
 </footer>
+
 
     <script>
         const revealfun = () => {
